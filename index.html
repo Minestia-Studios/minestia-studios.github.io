@@ -1,33 +1,81 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="200"
-  height="100"
-  viewBox="0 0 200 100"
->
-  <!-- Background color -->
-  <rect width="100%" height="100%" fill="#000" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Minestia Studios">
+  <meta name="description" content="Un realm minecraft basé sur de la survie">
+  <meta name="author" content="Fr-freez#8885">
+  <meta property="og:title" content="Minestia Studios">
+  <meta property="og:description" content="Un realm minecraft basé sur de la survie">
+  <meta property="og:image" content="https://minestia-studios.github.io/ilG/meta/img-meta.png">
+  <title>Minestia Studios - Minecraft Menu</title>
+  <style>
+  
+    body {
+      background-color: #1a1a1a;
+      font-family: "Minecraft", Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
 
-  <!-- Minecraft text -->
-  <text
-    x="50"
-    y="40"
-    font-family="Minecraft, Arial, sans-serif"
-    font-size="35"
-    fill="#6ad35a"
-    text-anchor="middle"
-  >
-    Minecraft
-  </text>
+    #menu {
+      background-color: #000;
+      color: #fff;
+      width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      border: 5px solid #6ad35a;
+      border-radius: 10px;
+    }
 
-  <!-- Minestia Studios text -->
-  <text
-    x="50"
-    y="80"
-    font-family="Arial, sans-serif"
-    font-size="20"
-    fill="#e040f0"
-    text-anchor="middle"
-  >
-    Minestia Studios
-  </text>
-</svg>
+    #menu h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #6ad35a;
+    }
+
+    #menu ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #menu li {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    #menu a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.2s;
+    }
+
+    #menu a:hover {
+      color: #6ad35a;
+    }
+
+    #footer {
+      position: fixed;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #6ad35a;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <h1>Minecraft Menu</h1>
+    <ul>
+      <li><a href="https://minestia-studios.github.io/">Acceuil</a></li>
+      <li><a href="https://minestia-studios.github.io/realm/minecraft://acceptRealmInvite?inviteID=br6qztjmPAs.html">Notres Realms</a></li>
+      <li><a href="https://minestia-studios.github.io/">A propos ,</a></li>
+      <li><a href="#">   </a></li>
+    </ul>
+  </div>
+  <div id="footer">Minestia Studios &copy; 2023</div>
+</body>
+</html>
